@@ -1,0 +1,11 @@
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+}
+
+#grid>div {
+    border: 1px solid black;
+    height: var(--tile-dimension);
+    width: var(--tile-dimension);
+  }
